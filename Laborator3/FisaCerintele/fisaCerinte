@@ -1,0 +1,36 @@
+Fisa cerinta
+IP Lab 3:
+    Delia Grigorita
+    Mihalache Radu 
+            Dima Mihai
+            Iacob Denisa
+           Jitarasu Catalina
+           Drumia Sebastian
+         
+Descrierea Problemei:
+    Un magazin de retail online care contine Produse ce pot fi vizualizate de toti utilizatorii si achizitionate de AUTHENTICATED intr-o anumita cantitate. Un produs are un nume, un pret, o imagine, descriere. Produsele platformei sunt create si editate de COMERCIANTI. Aplicatia este administarta de un ADMINISTRATOR. 
+
+Principalii actori:
+-Guest: Poate vizualiza produse,poate plasa comenzi, poate creea un cont
+-Authenticated: Poate vizualiza produse, le poate adauga in cos, poate achizitiona produsele din cos si le poate plati, are acces la istoricul comen
+-Administrator: Poate vizualiza produse, poate adauga produse, poate sterge produse, poate edita produse, poate pune un utilizator in black-list 
+-Comerciant: Poate vizualiza produse, poate adauga produsele lui, poate sterge produsele lui, poate edita produsele lui
+
+Scenarii:
+    -Vizualizare lista produse: un utilizator vizualizeaza lista de produse
+    -Vizualizare produs: un utilizator visualizeaza detaliile unui produs
+    -Autentificare cont authenticated: un Guest se poate autentifica folosind un username si o parola drept authenticated
+    -Autentificare cont comerciant: un Guest se poate autentifica folosind un username si o parola drept comerciant
+    -Creeare cont: un Guest isi poate creea un cont folosind un username si o parola
+-Recover parola: un Guest isi poate recupera parola folsind un email
+    -Adauga in cos: un Authenticated poate adauga produse in cos
+    -Sterge din cos: un Authenticated poate sterge din cos un produs
+    -Modific cantitate: un Authenticated poate poate modifica cantitatea dorita a unui produs
+    -Cumpara: un Authenticated poate cupara produsele din cos
+    -Adaug produs: un Comerciant sau Administartor poate adauga un produs pe platforma
+    -Sterg produs: un Comerciant sau Administartor poate sterge un produs pe platforma
+    -Modificare detalii produs: un Comerciant sau un Administator poate modifica detaliile unui produs
+
+
+
+
